@@ -16,8 +16,14 @@
 	</head>
 	<body class="preloader cursor-anim-enable">
 		<div class="preloader__out-overlay"></div>
-
-
+		<!-- preloader-loading start -->
+		<div class="preloader__loading in">
+			<div class="preloader__loading-anim" data-splitting>Loading...</div>
+		</div>
+		<div class="preloader__loading out">
+			<div class="preloader__loading-anim" data-splitting>Loading...</div>
+		</div><!-- preloader-loading end -->
+		
 		<!-- pointer start -->
 		<div class="pointer js-pointer" id="js-pointer">
 			<div class="pointer__inner drag">drag</div>
@@ -392,7 +398,7 @@
 						<!-- flex-container start -->
 						<div class="flex-container flex-align-center">
 							<!-- column start -->
-							<div class="eight-columns padding-top-90">
+							<div class="eight-columns padding-top-60">
 								<h4 class="column-l-r-margin-10 headline-s headline-uppercase">
 									The Best<br>
 									Freelancer for<br>
